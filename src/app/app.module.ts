@@ -14,6 +14,7 @@ import { ArtCertificatesComponent } from './hobby/art-certifications/art-certifi
 import { MountaineeringComponent } from './hobby/mountaineering/mountaineering.component';
 import { OthersComponent } from './hobby/others/others.component';
 import { ExperienceComponent } from './experiences/experience/experience.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ExperienceComponent } from './experiences/experience/experience.compone
     ArtCertificatesComponent,
     MountaineeringComponent,
     OthersComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule
