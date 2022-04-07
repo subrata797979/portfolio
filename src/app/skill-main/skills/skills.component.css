@@ -13,14 +13,32 @@
   background-color: #c43333;
 } */
 
+.card {
+  margin: 0.5rem;
+}
+
 .card :hover {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transform: scale(1.03);
+  border: 2px solid rgba(0, 0, 139, 0.223);
+  background-color: rgba(255, 186, 151, 0.616);
 }
 
 .card .card-body :hover {
   box-shadow: none;
+  transform: none;
+  border: none;
+  background-color: rgba(255, 186, 151, 0);
 }
 
 .card :hover .progress .progress-bar {
   background-color: #c43333;
+  border: none;
+  transform: none;
 }
+
+
+
+
+ 
+

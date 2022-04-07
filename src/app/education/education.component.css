@@ -129,3 +129,8 @@ body {
         padding-top: 0;
     }
 }
+
+.card-title a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
