@@ -15,6 +15,7 @@ import { MountaineeringComponent } from './hobby/mountaineering/mountaineering.c
 import { OthersComponent } from './hobby/others/others.component';
 import { ExperienceComponent } from './experiences/experience/experience.component';
 import { EducationComponent } from './education/education.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { EducationComponent } from './education/education.component';
     MountaineeringComponent,
     OthersComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule
