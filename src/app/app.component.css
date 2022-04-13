@@ -126,3 +126,17 @@ body {
       padding: 4rem;
     }
   }
+
+  .home-text > ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .home-text > ul li {
+    padding-right: 1rem;
+    list-style: none;
+  }
+
+  .home-text > ul li > a {
+    color: #c43333;
+  }

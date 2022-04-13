@@ -12,18 +12,19 @@
     </div>
 </div> -->
 
-<div class="image-flip py-5" >
-    <div class="mainflip flip-0">
+<div class="image-flip">
+    <div class="mainflip flip-0 py-3">
         <div class="frontside">
             <div class="card">
                 <div class="card-body text-center">
                     <p><img class=" img-fluid" src={{pobj.image}} alt="card image"></p>
                     <h4 class="card-title">{{pobj.name}}</h4>
                     <p class="card-text">{{pobj.description}}</p>
+                    <p class="card-text text-muted">Conclusion : {{pobj.conclusion}}</p>
                 </div>
             </div>
         </div>
-        <div class="backside">
+        <div class="backside mt-4">
             <div class="card">
                 <div class="card-body text-center mt-4">
                     <h4 class="card-title fs-5">ID : {{pobj.pid}}</h4>
