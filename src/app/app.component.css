@@ -119,3 +119,10 @@ body {
     font-size:13px;
     margin-bottom:0;
   }
+
+
+  @media (min-width: 600px) and (max-width:995px) {
+    .container-lg {
+      padding: 4rem;
+    }
+  }
