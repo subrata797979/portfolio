@@ -16,6 +16,8 @@ import { OthersComponent } from './hobby/others/others.component';
 import { ExperienceComponent } from './experiences/experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AchievementComponent } from './achievement/achievement.component';
+import { TestifyComponent } from './testify/testify.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     OthersComponent,
     ExperienceComponent,
     EducationComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AchievementComponent,
+    TestifyComponent,
   ],
   imports: [
     BrowserModule
