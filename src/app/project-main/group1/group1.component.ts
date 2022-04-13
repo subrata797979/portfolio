@@ -10,55 +10,20 @@ export class Group1Component implements OnInit {
 
   group1_projects!: Project[];
 
-  constructor() { 
+  constructor() {
     this.group1_projects = [
       {
         pid!: 1,
-        name!: "Demo1",
-        start_date!: new Date("2019-01-16"),
-        end_date!: new Date("2019-03-12"),
-        description!: "This is a demo project",
-        type!: "Group",
-        role!: "Developed the forntend of the application",
-        technology!: "Java SpringBoot",
-        conclusion!: "This have many real time component for data gathering",
-        github!: "www.google.co.in"
-      },
-      {
-        pid!: 1,
-        name!: "Demo1",
-        start_date!: new Date("2019-01-16"),
-        end_date!: new Date("2019-03-12"),
-        description!: "This is a demo project",
-        type!: "Group",
-        role!: "Developed the forntend of the application",
-        technology!: "Java SpringBoot",
-        conclusion!: "This have many real time component for data gathering",
-        github!: "www.google.co.in"
-      },
-      {
-        pid!: 1,
-        name!: "Demo1",
-        start_date!: new Date("2019-01-16"),
-        end_date!: new Date("2019-03-12"),
-        description!: "This is a demo project",
-        type!: "Group",
-        role!: "Developed the forntend of the application",
-        technology!: "Java SpringBoot",
-        conclusion!: "This have many real time component for data gathering",
-        github!: "www.google.co.in"
-      },
-      {
-        pid!: 1,
-        name!: "Demo1",
-        start_date!: new Date("2019-01-16"),
-        end_date!: new Date("2019-03-12"),
-        description!: "This is a demo project",
-        type!: "Group",
-        role!: "Developed the forntend of the application",
-        technology!: "Java SpringBoot",
-        conclusion!: "This have many real time component for data gathering",
-        github!: "www.google.co.in"
+        name!: "Spring Boot Student CRUD API with Separate Frontend",
+        start_date!: new Date("2022-01-05"),
+        end_date!: new Date("2022-02-12"),
+        description!: "A simple Java Spring Boot Rest API for Create, Read, Delete and Update operations on Students with Separate Frontend",
+        type!: "Individual",
+        role!: "Fullstack Developer, developing from scratch",
+        technology!: "Java Spring Boot Framwork, HTML, CSS, JS, Bootstrap",
+        conclusion!: "A challenging project for understanding REST API calls",
+        github!: "https://github.com/subrata797979/12_StudentAPI_CRUD_Backend",
+        image!: "../../../assets/projects/group1/springBoot.png"
       }
     ]
   }

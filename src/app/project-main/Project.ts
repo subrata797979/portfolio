@@ -9,4 +9,5 @@ export class Project {
     technology!: string
     conclusion!: string
     github!: string
+    image!: string
 }

@@ -1,4 +1,4 @@
-<div class="card text-center">
+<!-- <div class="card text-center">
     <div class="card-header">
         <p>Id : {{pobj.pid}}</p>
     </div>
@@ -9,5 +9,31 @@
     </div>
     <div class="card-footer text-muted">
         {{pobj.role}}
+    </div>
+</div> -->
+
+<div class="image-flip py-5" >
+    <div class="mainflip flip-0">
+        <div class="frontside">
+            <div class="card">
+                <div class="card-body text-center">
+                    <p><img class=" img-fluid" src={{pobj.image}} alt="card image"></p>
+                    <h4 class="card-title">{{pobj.name}}</h4>
+                    <p class="card-text">{{pobj.description}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="backside">
+            <div class="card">
+                <div class="card-body text-center mt-4">
+                    <h4 class="card-title fs-5">ID : {{pobj.pid}}</h4>
+                    <p class="card-text">Technology Used : {{pobj.technology}}</p>
+                    <p class="card-text">Role in Project : {{pobj.role}}</p>
+                    <p class="card-text">Project Type : {{pobj.type}}</p>
+                    <p class="card-text">Github : <a href={{pobj.github}} target="_blank">{{pobj.github}}</a></p>
+                    <p class="card-text">Duration : {{pobj.start_date | date:'dd-MM-yyyy'}} to {{pobj.end_date | date:'dd-MM-yyyy'}}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
