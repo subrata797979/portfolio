@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="row">
+        <div *ngFor="let p of group1_projects" [ngClass]="'col-sm-6 col-xl-4'">
+            <app-group-item [pobj]="p" class="p-3"></app-group-item>
+        </div>
+    </div>
+</div>

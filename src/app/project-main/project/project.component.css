@@ -1,0 +1,9 @@
+.accordion-button {
+    background-color: hsl(0, 100%, 90%);
+    color: #c43333;
+}
+
+.accordion-header :hover {
+    background-color: #c43333;
+    color: #fff;
+}

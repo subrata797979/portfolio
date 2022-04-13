@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 import { SkillsComponent } from './skill-main/skills/skills.component';
 import { CertificationsComponent } from './skill-main/certifications/certifications.component';
 import { AchievementsComponent } from './skill-main/achievements/achievements.component';
-import { ProjectGroupComponent } from './project-main/project-group/project-group.component';
 import { ProjectComponent } from './project-main/project/project.component';
-import { ProjectContainerComponent } from './project-main/project-container/project-container.component';
 import { CertificatesComponent } from './skill-main/certifications/certificates/certificates.component';
 import { ArtCertificationsComponent } from './hobby/art-certifications/art-certifications.component';
 import { ArtCertificatesComponent } from './hobby/art-certifications/art-certificates/art-certificates.component';
@@ -18,6 +16,10 @@ import { EducationComponent } from './education/education.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AchievementComponent } from './achievement/achievement.component';
 import { TestifyComponent } from './testify/testify.component';
+import { Group1Component } from './project-main/group1/group1.component';
+import { Group2Component } from './project-main/group2/group2.component';
+import { Group3Component } from './project-main/group3/group3.component';
+import { GroupItemComponent } from './project-main/group-item/group-item.component';
 
 @NgModule({
   declarations: [
@@ -25,9 +27,7 @@ import { TestifyComponent } from './testify/testify.component';
     SkillsComponent,
     CertificationsComponent,
     AchievementsComponent,
-    ProjectGroupComponent,
     ProjectComponent,
-    ProjectContainerComponent,
     CertificatesComponent,
     ArtCertificationsComponent,
     ArtCertificatesComponent,
@@ -38,6 +38,10 @@ import { TestifyComponent } from './testify/testify.component';
     ContactUsComponent,
     AchievementComponent,
     TestifyComponent,
+    Group1Component,
+    Group2Component,
+    Group3Component,
+    GroupItemComponent,
   ],
   imports: [
     BrowserModule
