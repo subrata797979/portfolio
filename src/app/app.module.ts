@@ -18,7 +18,6 @@ import { AchievementComponent } from './achievement/achievement.component';
 import { TestifyComponent } from './testify/testify.component';
 import { Group1Component } from './project-main/group1/group1.component';
 import { Group2Component } from './project-main/group2/group2.component';
-import { Group3Component } from './project-main/group3/group3.component';
 import { GroupItemComponent } from './project-main/group-item/group-item.component';
 
 @NgModule({
@@ -40,7 +39,6 @@ import { GroupItemComponent } from './project-main/group-item/group-item.compone
     TestifyComponent,
     Group1Component,
     Group2Component,
-    Group3Component,
     GroupItemComponent,
   ],
   imports: [
