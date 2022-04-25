@@ -61,7 +61,7 @@ export class Group1Component implements OnInit {
         role!: "Developing data flow and internal API",
         technology!: "Node Js, MongoDB, Express Js, Mongoose",
         conclusion!: "Quick development and implementation is the strongest side of Node",
-        github!: "https://github.com/subrata797979/62_Book_Management_Backend",
+        github!: "https://github.com/subrata797979/42_Book_Management_Backend",
         image!: "../../../assets/projects/group1/node.jpg"
       },
       {
@@ -74,7 +74,7 @@ export class Group1Component implements OnInit {
         role!: "UI/UX design, dashboard design and management, data visualization using chart js, providing HTTP services",
         technology!: "Angular, Angular Material, Angular Form, Angular Animations, Chart Js, RXJS",
         conclusion!: "Elegent UI/UX design and modularity provided by Angular is incomparable",
-        github!: "https://github.com/subrata797979/61_Book_Management_Frontend",
+        github!: "https://github.com/subrata797979/41_Book_Management_Frontend",
         image!: "../../../assets/projects/group1/angular.png"
       },
       {

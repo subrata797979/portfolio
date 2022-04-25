@@ -7,3 +7,15 @@
     background-color: #c43333;
     color: #fff;
 }
+
+.accordion-item {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.accordion {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
