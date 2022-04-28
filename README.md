@@ -1,4 +1,16 @@
-# PortfolioSubrata797979
+# Subrata Halder
+
+## Live Demo
+https://subrata797979.netlify.app/
+
+# Screenshots
+
+![image](https://user-images.githubusercontent.com/35250133/165693071-9efc6ce1-7b4a-4155-81dd-cd917d8c1370.png)
+
+![image](https://user-images.githubusercontent.com/35250133/165693144-1ee38543-c96b-4c82-9c1d-9667358a6e50.png)
+
+![image](https://user-images.githubusercontent.com/35250133/165693224-e9d02002-050c-4baa-a613-9070b4734a1f.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
