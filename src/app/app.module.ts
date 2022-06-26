@@ -20,6 +20,7 @@ import { GroupItemComponent } from './project-main/group-item/group-item.compone
 
 // Import NgxHideOnScrollModule
 import { NgxHideOnScrollModule } from 'ngx-hide-on-scroll';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { NgxHideOnScrollModule } from 'ngx-hide-on-scroll';
     Group1Component,
     Group2Component,
     GroupItemComponent,
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,
